@@ -11,6 +11,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name="developer",namespace = "http://www.nttdata.org/cours-jaxb") 
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Developer {
+	private Salaire salaire ;
 	public enum Language{
 		JAVA, Python, SCALA, PHP
 	}
@@ -43,6 +44,20 @@ public class Developer {
 
 	public void setLanguage(Language language) {
 		this.language = language;
+	}
+
+	/**
+	 * @return the salaire
+	 */
+	public Salaire getSalaire() {
+		return salaire;
+	}
+
+	/**
+	 * @param salaire the salaire to set
+	 */
+	public void setSalaire(Salaire salaire) {
+		this.salaire = salaire;
 	}
 
 }

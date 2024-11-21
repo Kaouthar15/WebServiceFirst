@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<team xmlns:ns2="http://www.nttdata.org/cours-jaxb" id="1">
+    <nom>Tech Team</nom>
+    <members>
+        <developer id="13">
+            <salaire>1000</salaire>
+            <name>Kaouthar</name>
+            <language>JAVA</language>
+        </developer>
+        <junior id="14">
+            <salaire>2000</salaire>
+            <name>Ali</name>
+            <language>Python</language>
+        </junior>
+        <senior id="15">
+            <salaire>3000</salaire>
+            <name>Ahmed</name>
+            <language>SCALA</language>
+        </senior>
+    </members>
+</team>
